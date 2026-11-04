@@ -52,6 +52,7 @@ typedef enum {
 typedef enum {
   STEP_0_02kHz,
   STEP_0_05kHz,
+  STEP_0_1kHz,
   STEP_0_5kHz,
   STEP_1_0kHz,
 

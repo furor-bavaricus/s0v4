@@ -230,7 +230,7 @@ class QuanshengUVK5Radio(chirp_common.CloneModeRadio):
         "MELODY"
     ]
     STEP_FREQ_TABLE = [
-    2,   5,   50,  100,
+    2,   5,   10,  50,  100,
     250, 500, 625, 833, 900, 1000, 1250, 2500, 5000, 10000, 50000,
     ]
     CTCSS_TONES = [
