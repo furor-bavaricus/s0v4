@@ -43,8 +43,8 @@ static bool hasSsbPatch = false;
 
 static uint8_t oldRadio = 255;
 
-const uint16_t StepFrequencyTable[15] = {
-    2,   5,   50,  100,
+const uint16_t StepFrequencyTable[16] = {
+    2,   5,   10,  50,  100,
 
     250, 500, 625, 833, 900, 1000, 1250, 2500, 5000, 10000, 50000,
 };
